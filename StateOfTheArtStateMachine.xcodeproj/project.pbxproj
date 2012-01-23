@@ -13,6 +13,11 @@
 		737E5E0614CD748200428664 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 737E5E0414CD748200428664 /* Credits.rtf */; };
 		737E5E0914CD748200428664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E0814CD748200428664 /* AppDelegate.m */; };
 		737E5E0C14CD748200428664 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737E5E0A14CD748200428664 /* MainMenu.xib */; };
+		737E5E1414CD74BD00428664 /* ApplicationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E1314CD74BD00428664 /* ApplicationContext.m */; };
+		737E5E1714CD74C700428664 /* ApplicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E1614CD74C700428664 /* ApplicationState.m */; };
+		737E5E1A14CD75B400428664 /* ApplicationState1.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E1914CD75B400428664 /* ApplicationState1.m */; };
+		737E5E1D14CD75BE00428664 /* ApplicationState2.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E1C14CD75BE00428664 /* ApplicationState2.m */; };
+		737E5E2014CD75CE00428664 /* ApplicationState3.m in Sources */ = {isa = PBXBuildFile; fileRef = 737E5E1F14CD75CE00428664 /* ApplicationState3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +26,24 @@
 		737E5DF814CD748200428664 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		737E5DF914CD748200428664 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		737E5DFA14CD748200428664 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		737E5DFD14CD748200428664 /* StateOfTheArtStateMachine-Info.plist */ = {isa = PBXFileReference; path = "StateOfTheArtStateMachine-Info.plist"; sourceTree = "<group>"; };
+		737E5DFD14CD748200428664 /* StateOfTheArtStateMachine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StateOfTheArtStateMachine-Info.plist"; sourceTree = "<group>"; };
 		737E5DFF14CD748200428664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		737E5E0114CD748200428664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		737E5E0314CD748200428664 /* StateOfTheArtStateMachine-Prefix.pch */ = {isa = PBXFileReference; path = "StateOfTheArtStateMachine-Prefix.pch"; sourceTree = "<group>"; };
+		737E5E0314CD748200428664 /* StateOfTheArtStateMachine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StateOfTheArtStateMachine-Prefix.pch"; sourceTree = "<group>"; };
 		737E5E0514CD748200428664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		737E5E0714CD748200428664 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		737E5E0714CD748200428664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		737E5E0814CD748200428664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		737E5E0B14CD748200428664 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		737E5E1214CD74BD00428664 /* ApplicationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationContext.h; sourceTree = "<group>"; };
+		737E5E1314CD74BD00428664 /* ApplicationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationContext.m; sourceTree = "<group>"; };
+		737E5E1514CD74C700428664 /* ApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState.h; sourceTree = "<group>"; };
+		737E5E1614CD74C700428664 /* ApplicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState.m; sourceTree = "<group>"; };
+		737E5E1814CD75B400428664 /* ApplicationState1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState1.h; sourceTree = "<group>"; };
+		737E5E1914CD75B400428664 /* ApplicationState1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState1.m; sourceTree = "<group>"; };
+		737E5E1B14CD75BE00428664 /* ApplicationState2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState2.h; sourceTree = "<group>"; };
+		737E5E1C14CD75BE00428664 /* ApplicationState2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState2.m; sourceTree = "<group>"; };
+		737E5E1E14CD75CD00428664 /* ApplicationState3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState3.h; sourceTree = "<group>"; };
+		737E5E1F14CD75CE00428664 /* ApplicationState3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,16 @@
 		737E5DFB14CD748200428664 /* StateOfTheArtStateMachine */ = {
 			isa = PBXGroup;
 			children = (
+				737E5E1214CD74BD00428664 /* ApplicationContext.h */,
+				737E5E1314CD74BD00428664 /* ApplicationContext.m */,
+				737E5E1514CD74C700428664 /* ApplicationState.h */,
+				737E5E1614CD74C700428664 /* ApplicationState.m */,
+				737E5E1814CD75B400428664 /* ApplicationState1.h */,
+				737E5E1914CD75B400428664 /* ApplicationState1.m */,
+				737E5E1B14CD75BE00428664 /* ApplicationState2.h */,
+				737E5E1C14CD75BE00428664 /* ApplicationState2.m */,
+				737E5E1E14CD75CD00428664 /* ApplicationState3.h */,
+				737E5E1F14CD75CE00428664 /* ApplicationState3.m */,
 				737E5E0714CD748200428664 /* AppDelegate.h */,
 				737E5E0814CD748200428664 /* AppDelegate.m */,
 				737E5E0A14CD748200428664 /* MainMenu.xib */,
@@ -167,6 +192,11 @@
 			files = (
 				737E5E0214CD748200428664 /* main.m in Sources */,
 				737E5E0914CD748200428664 /* AppDelegate.m in Sources */,
+				737E5E1414CD74BD00428664 /* ApplicationContext.m in Sources */,
+				737E5E1714CD74C700428664 /* ApplicationState.m in Sources */,
+				737E5E1A14CD75B400428664 /* ApplicationState1.m in Sources */,
+				737E5E1D14CD75BE00428664 /* ApplicationState2.m in Sources */,
+				737E5E2014CD75CE00428664 /* ApplicationState3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

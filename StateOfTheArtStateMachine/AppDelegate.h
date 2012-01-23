@@ -10,6 +10,11 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+- (IBAction)pushStates1To3:(id)sender;
+- (IBAction)pushStates1And3:(id)sender;
+- (IBAction)pushState2:(id)sender;
+
+@property (weak) IBOutlet NSTextField *messagesTextField;
 @property (assign) IBOutlet NSWindow *window;
 
 @end
